@@ -1,40 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Billing Management System
 
-## Getting Started
+A modern web-based billing and inventory management system built with Next.js and React.
 
-First, run the development server:
+## Tech Stack
 
+- **Frontend Framework**: Next.js 15.0.1
+- **UI Library**: React 19.0.0
+- **Styling**: Tailwind CSS 3.4.1
+- **State Management**: React Hooks (useState, useEffect)
+- **Data Persistence**: Local Storage
+- **Build Tool**: npm
+
+## Features
+
+- Customer Management
+- Product Inventory
+- Billing Generation
+- Transaction History
+- Real-time Product Search
+- Stock Management
+- Billing PDF Generation
+- Notification System
+
+## Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [https://github.com/yashlohade21/Assignment-Billing-Software.git]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to project directory:
+```bash
+cd billing-system
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Install dependencies:
+```bash
+npm install
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+4. Run the development server:
+```bash
+npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+### Customer Management
+- Add new customers with details like name, gender, contact, and email
+- Edit or delete existing customers
+- Search customers by name
 
-To learn more about Next.js, take a look at the following resources:
+### Product Management
+- Add products with name, price, quantity, brand, supplier, and category
+- Track stock levels automatically
+- Edit or delete products
+- Search products by name or category
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+### Billing
+- Create bills by selecting customer and products
+- Automatic stock adjustment
+- Print bills
+- View billing history
+- Edit or delete bills
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Transactions
+- Record transactions with customer and product details
+- Automatic stock updates
+- View transaction history
 
-## Deploy on Vercel
+## Data Storage
+The application uses browser's Local Storage to persist data. This means:
+- Data remains after page refresh
+- No backend database required
+- Data is stored locally in the browser
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## Contributing
+Feel free to open issues and pull requests for any improvements.
