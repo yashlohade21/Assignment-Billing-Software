@@ -26,7 +26,7 @@ A modern web-based billing and inventory management system built with Next.js an
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/yashlohade21/Assignment-Billing-Software.git]
+git clone https://github.com/yashlohade21/Assignment-Billing-Software.git
 ```
 
 2. Navigate to project directory:
